@@ -1,0 +1,322 @@
+[
+ {
+  "question": "1. Which of the following is a server-side Java Script object?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "Function",
+    "isCorrect": false,
+    "id": "a9b5843c-ed25-4477-abdc-767451538a81"
+   },
+   {
+    "answer": "File Upload",
+    "isCorrect": true,
+    "id": "598d0822-08b2-4a5a-a77a-97cbec2eed08"
+   },
+   {
+    "answer": "File",
+    "isCorrect": false,
+    "id": "c2ee930b-c5b9-4c7a-80db-40d4416fc9fc"
+   },
+   {
+    "answer": "Date",
+    "isCorrect": false,
+    "id": "c479cebd-1460-4788-8852-f558c124f23a"
+   }
+  ],
+  "id": "1"
+ },
+ {
+  "question": "2. Java script can be used for Storing the form's contents to a database file on the server",
+  "open": false,
+  "answers": [
+   {
+    "answer": "No",
+    "isCorrect": true,
+    "id": "36fe8a0b-5319-46a6-841d-ce5e3ff00e06"
+   },
+   {
+    "answer": "Yes",
+    "isCorrect": false,
+    "id": "ada56219-b40e-4bc9-8d35-4ec28db7c6b1"
+   },
+   {
+    "answer": "Maybe",
+    "isCorrect": false,
+    "id": "2b1b3337-91c3-4e52-af03-23b1fce3ca31"
+   },
+   {
+    "answer": "Sometimes",
+    "isCorrect": false,
+    "id": "18c1e4e6-dd77-4c12-b035-ebc2ada7afac"
+   }
+  ],
+  "id": "2"
+ },
+ {
+  "question": "3. To insert a JavaScript into an HTML page, which tag is used?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "<script=â€™javaâ€™",
+    "isCorrect": false,
+    "id": "d7e771c6-fcd4-443c-92f0-5c4280be090b"
+   },
+   {
+    "answer": "<javascript>",
+    "isCorrect": false,
+    "id": "acb38cb6-972b-4d00-a28a-df4ff7a41068"
+   },
+   {
+    "answer": "<script>",
+    "isCorrect": true,
+    "id": "d07ca69d-dd6a-4c45-b0e3-7f60048c5c13"
+   },
+   {
+    "answer": "<js>",
+    "isCorrect": false,
+    "id": "65312814-04db-4afc-b08e-d4c59edba56f"
+   }
+  ],
+  "id": "3"
+ },
+ {
+  "question": "4. Which of the below is used in Java script to insert special characters?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "&",
+    "isCorrect": false,
+    "id": "f9cb9357-3bd7-40af-9130-9af26d23ba1a"
+   },
+   {
+    "answer": "%",
+    "isCorrect": false,
+    "id": "1cb73a41-a5b4-452d-a3dc-713b311e3b43"
+   },
+   {
+    "answer": "-",
+    "isCorrect": false,
+    "id": "ae3e2dbe-e074-4709-aa90-f550159218a0"
+   },
+   {
+    "answer": "/",
+    "isCorrect": true,
+    "id": "cfde265b-ed65-40ac-8607-d50cf06dfb44"
+   }
+  ],
+  "id": "4"
+ },
+ {
+  "question": "5. How does Java Script store dates in objects of Date type?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "The number of days since January 1st, 1900",
+    "isCorrect": false,
+    "id": "b3850594-06b6-4fd0-84dc-4eafb2567fc5"
+   },
+   {
+    "answer": "The number of seconds since January 1st, 1970",
+    "isCorrect": false,
+    "id": "495fad39-928c-456b-8a82-6df9aa52182f"
+   },
+   {
+    "answer": "The number of picoseconds since January 1st, 1970",
+    "isCorrect": false,
+    "id": "06f6ad68-5133-491f-a905-ad54f0e506f0"
+   },
+   {
+    "answer": "The number of milliseconds since January 1st, 1970",
+    "isCorrect": true,
+    "id": "d50de933-4ac7-48a4-93a5-7f0881b3e681"
+   }
+  ],
+  "id": "5"
+ },
+ {
+  "question": "6. Which attribute needs to be changed to make elements invisible?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "invisibility",
+    "isCorrect": false,
+    "id": "73c4467a-55ed-4903-8b01-5ba9b9e6dd53"
+   },
+   {
+    "answer": "visibility",
+    "isCorrect": true,
+    "id": "31479d73-b39f-4fba-bfb9-cd76cf25512d"
+   },
+   {
+    "answer": "visible",
+    "isCorrect": false,
+    "id": "1080cccd-7d69-432d-a428-e17ebda84739"
+   },
+   {
+    "answer": "invisible",
+    "isCorrect": false,
+    "id": "43a89ce6-b429-443f-8fa9-801a590cd9be"
+   }
+  ],
+  "id": "6"
+ },
+ {
+  "question": "7. Which of the following is used to capture all click events in a window?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "window.captureEvents(Event.CLICK)",
+    "isCorrect": true,
+    "id": "fcbd3c34-8893-4f7d-99a3-dcc28b49f1a1"
+   },
+   {
+    "answer": "window.routeEvents(Event.CLICK )",
+    "isCorrect": false,
+    "id": "8edf8e1a-5bdd-405f-bb99-3260e4243a44"
+   },
+   {
+    "answer": "window.handleEvents (Event.CLICK)",
+    "isCorrect": false,
+    "id": "1e7c11de-e3e9-4fc8-8e35-f750595f9f80"
+   },
+   {
+    "answer": "window.raiseEvents(Event.CLICK )",
+    "isCorrect": false,
+    "id": "e710dc9e-4f9b-4020-ba76-99346d203b35"
+   }
+  ],
+  "id": "7"
+ },
+ {
+  "question": "8. Which of the ways below is incorrect of instantiating a date?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "new Date(year, month, day, hours, minutes, seconds, milliseconds)",
+    "isCorrect": false,
+    "id": "cd5cd99b-7c58-4ba2-ae86-6eb42bf1f2a0"
+   },
+   {
+    "answer": "new Date(dateString)",
+    "isCorrect": false,
+    "id": "f5838536-d2ac-492a-99f8-3c36f2e8d35e"
+   },
+   {
+    "answer": "new Date()",
+    "isCorrect": false,
+    "id": "3c31bed0-be64-4a2b-bdc0-cdef8a7cace0"
+   },
+   {
+    "answer": "new Date(seconds)",
+    "isCorrect": true,
+    "id": "df661f50-7ed7-4106-b400-a9a0ae2eebfb"
+   }
+  ],
+  "id": "8"
+ },
+ {
+  "question": "9. What language defines the behavior of a web page?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "CSS",
+    "isCorrect": false,
+    "id": "22bfd178-eede-4b31-930b-006383b9e8b0"
+   },
+   {
+    "answer": "Java Script",
+    "isCorrect": true,
+    "id": "6780dded-1d6a-4bbe-bf27-5a403fb09f43"
+   },
+   {
+    "answer": "HTML",
+    "isCorrect": false,
+    "id": "b6b232a7-ea86-4e0e-9da3-55551953caab"
+   },
+   {
+    "answer": "XML",
+    "isCorrect": false,
+    "id": "4c0e92c2-71a6-479d-a646-e477120f3be5"
+   }
+  ],
+  "id": "9"
+ },
+ {
+  "question": "10. What java wrapper type is created when a JavaScript object is sent to Java?",
+  "open": false,
+  "answers": [
+   {
+    "answer": "JSObject",
+    "isCorrect": true,
+    "id": "e49901c2-00fc-44c9-9c8a-53438426587f"
+   },
+   {
+    "answer": "ScriptObject",
+    "isCorrect": false,
+    "id": "1c276221-2e78-4fd3-a8a9-f8e26744de9c"
+   },
+   {
+    "answer": "JavaObject",
+    "isCorrect": false,
+    "id": "ed79e66e-152d-43de-9ffd-41f77701fb97"
+   },
+   {
+    "answer": "Jobject",
+    "isCorrect": false,
+    "id": "1789085c-52bc-47d0-90cc-82b1f2a879e6"
+   }
+  ],
+  "id": "10"
+ },
+ {
+  "id": "11",
+  "question": "Do you know what will be the output of this code?  console.log(1 +  \"2\" + \"2\");",
+  "open": false,
+  "answers": [
+   {
+    "answer": "122",
+    "isCorrect": true
+   },
+   {
+    "answer": "32",
+    "isCorrect": false
+   },
+   {
+    "answer": "NaN2",
+    "isCorrect": false
+   },
+   {
+    "answer": "NaN",
+    "isCorrect": false
+   }
+  ]
+ }
+]
+
+
+{
+  "question": "$lorem.text",
+  "answers": [
+    {
+     "answer": "$lorem.words",
+     "isCorrect": "$datatype.boolean", 
+     "id": "$datatype.uuid",
+    },
+    {
+     "answer": "$lorem.words",
+     "isCorrect": "$datatype.boolean", 
+     "id": "$datatype.uuid",
+    },
+    {
+     "answer": "$lorem.words",
+     "isCorrect": "$datatype.boolean", 
+     "id": "$datatype.uuid",
+    },
+    {
+     "answer": "$lorem.words",
+     "isCorrect": "$datatype.boolean", 
+     "id": "$datatype.uuid",
+    },
+   ],
+}

@@ -1,57 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/Home';
+import QuestionsPage from './pages/Questions';
+import CreateQuestionPage from './pages/CreateQuestion';
+import UpdateQuestionPage from './pages/UpdateQuestion';
+import { ThemeProvider } from '@mui/material/styles';
+import { darkTheme, lightTheme } from './themes/newThemes';
+import ToggleTheme from './components/toggleTheme';
+import { useSelector } from 'react-redux';
+import { CustomContainer } from './themes/customsComponents';
+
 
 function App() {
+	const light = useSelector((state) => state.light);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <ThemeProvider theme={light ? lightTheme : darkTheme}>
+      <CustomContainer>
+        <ToggleTheme light={light}/>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/questions' element={<QuestionsPage/>}/>
+          <Route path='/questions/create' element={<CreateQuestionPage/>}/>
+          <Route path='/questions/:id' element={<UpdateQuestionPage/>}/>
+        </Routes>
+      </CustomContainer>
+    </ThemeProvider>
   );
 }
 
